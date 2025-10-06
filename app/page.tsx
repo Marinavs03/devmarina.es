@@ -371,7 +371,7 @@ INFORMACIÓN ADICIONAL:
                     <div className="min-w-0 flex-1">
                       <CardTitle className="text-emerald-400 text-xl break-words">Bachillerato</CardTitle>
                       <CardDescription className="text-lg text-gray-300 break-words">
-                        IES Virgen de Valme, Dos Hermanas (Sevilla)
+                        I.E.S. Virgen de Valme - Dos Hermanas (Sevilla)
                       </CardDescription>
                     </div>
                   </div>
