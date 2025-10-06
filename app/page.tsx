@@ -77,7 +77,6 @@ HABILIDADES TÉCNICAS:
 • Desarrollo Web
 • Desarrollo de aplicaciones Android
 • Python
-• JavaScript
 • Java
 • SQL
 
