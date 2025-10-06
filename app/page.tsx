@@ -76,8 +76,8 @@ FORMACIÓN ACADÉMICA:
 HABILIDADES TÉCNICAS:
 • Desarrollo Web
 • Desarrollo de aplicaciones Android
-• Python
 • Java
+• Python
 • SQL
 
 APTITUDES PERSONALES:
@@ -110,12 +110,11 @@ INFORMACIÓN ADICIONAL:
   }
 
   const skills = [
-    { name: "JavaScript", icon: Code },
+    { name: "Desarrollo Web", icon: Globe },
+    { name: "Desarrollo en Android", icon: Smartphone },
     { name: "Java", icon: Code },
     { name: "Python", icon: Code },
     { name: "SQL", icon: Database },
-    { name: "Android Development", icon: Smartphone },
-    { name: "Web Development", icon: Globe },
   ]
 
   return (
