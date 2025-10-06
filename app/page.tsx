@@ -256,19 +256,19 @@ INFORMACIÓN ADICIONAL:
           <div className="max-w-4xl mx-auto space-y-6">
             <Card className="bg-gradient-to-br from-gray-800 to-gray-700 border-emerald-500/20 shadow-xl shadow-emerald-500/10 hover:shadow-emerald-500/20 transition-all duration-300 transform hover:-translate-y-1">
               <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                  <div className="flex items-center gap-4 flex-1 min-w-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <Users className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <CardTitle className="text-emerald-400 text-xl">Crew Member</CardTitle>
-                      <CardDescription className="text-lg text-gray-300">
+                    <div className="min-w-0 flex-1">
+                      <CardTitle className="text-emerald-400 text-xl break-words">Crew Member</CardTitle>
+                      <CardDescription className="text-lg text-gray-300 break-words">
                         McDonald's - Dos Hermanas, Sevilla
                       </CardDescription>
                     </div>
                   </div>
-                  <Badge className="bg-gradient-to-r from-emerald-600 to-green-600 text-white">
+                  <Badge className="bg-gradient-to-r from-emerald-600 to-green-600 text-white whitespace-nowrap self-start">
                     Nov 2024 - Actualidad
                   </Badge>
                 </div>
@@ -276,16 +276,16 @@ INFORMACIÓN ADICIONAL:
               <CardContent>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-emerald-400 rounded-full" />
-                    Atención al cliente y gestión eficiente de pedidos
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full flex-shrink-0" />
+                    <span className="break-words">Atención al cliente y gestión eficiente de pedidos</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-emerald-400 rounded-full" />
-                    Trabajo colaborativo en equipo en entorno dinámico
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full flex-shrink-0" />
+                    <span className="break-words">Trabajo colaborativo en equipo en entorno dinámico</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-emerald-400 rounded-full" />
-                    Cumplimiento riguroso de protocolos de higiene y seguridad
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full flex-shrink-0" />
+                    <span className="break-words">Cumplimiento riguroso de protocolos de higiene y seguridad</span>
                   </li>
                 </ul>
               </CardContent>
@@ -293,19 +293,21 @@ INFORMACIÓN ADICIONAL:
 
             <Card className="bg-gradient-to-br from-gray-800 to-gray-700 border-emerald-500/20 shadow-xl shadow-emerald-500/10 hover:shadow-emerald-500/20 transition-all duration-300 transform hover:-translate-y-1">
               <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                  <div className="flex items-center gap-4 flex-1 min-w-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <Lightbulb className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <CardTitle className="text-emerald-400 text-xl">Community Manager (Prácticas)</CardTitle>
-                      <CardDescription className="text-lg text-gray-300">
+                    <div className="min-w-0 flex-1">
+                      <CardTitle className="text-emerald-400 text-xl break-words">
+                        Community Manager (Prácticas)
+                      </CardTitle>
+                      <CardDescription className="text-lg text-gray-300 break-words">
                         Magic Store Disney - Dos Hermanas, Sevilla
                       </CardDescription>
                     </div>
                   </div>
-                  <Badge variant="outline" className="border-emerald-400 text-emerald-400">
+                  <Badge variant="outline" className="border-emerald-400 text-emerald-400 whitespace-nowrap self-start">
                     2021
                   </Badge>
                 </div>
@@ -313,12 +315,12 @@ INFORMACIÓN ADICIONAL:
               <CardContent>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-emerald-400 rounded-full" />
-                    Gestión estratégica de redes sociales y creación de contenido
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full flex-shrink-0" />
+                    <span className="break-words">Gestión estratégica de redes sociales y creación de contenido</span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-emerald-400 rounded-full" />
-                    Desarrollo de estrategias de marketing digital y fidelización
+                    <div className="w-2 h-2 bg-emerald-400 rounded-full flex-shrink-0" />
+                    <span className="break-words">Desarrollo de estrategias de marketing digital y fidelización</span>
                   </li>
                 </ul>
               </CardContent>
@@ -334,27 +336,27 @@ INFORMACIÓN ADICIONAL:
           <div className="max-w-4xl mx-auto space-y-6">
             <Card className="bg-gradient-to-br from-gray-900 to-gray-800 border-emerald-500/20 shadow-xl shadow-emerald-500/10 hover:shadow-emerald-500/20 transition-all duration-300 transform hover:-translate-y-1">
               <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                  <div className="flex items-center gap-4 flex-1 min-w-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <Code className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <CardTitle className="text-emerald-400 text-xl">
+                    <div className="min-w-0 flex-1">
+                      <CardTitle className="text-emerald-400 text-xl break-words">
                         Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)
                       </CardTitle>
-                      <CardDescription className="text-lg text-gray-300">
+                      <CardDescription className="text-lg text-gray-300 break-words">
                         ITP Pablo de la Torre - Dos Hermanas (Sevilla)
                       </CardDescription>
                     </div>
                   </div>
-                  <Badge className="bg-gradient-to-r from-emerald-600 to-green-600 text-white">
+                  <Badge className="bg-gradient-to-r from-emerald-600 to-green-600 text-white whitespace-nowrap self-start">
                     Sep 2024 - Actualidad
                   </Badge>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">
+                <p className="text-gray-300 break-words">
                   Formación especializada en desarrollo de aplicaciones para múltiples plataformas, incluyendo
                   programación orientada a objetos, bases de datos, desarrollo web y móvil.
                 </p>
@@ -363,19 +365,19 @@ INFORMACIÓN ADICIONAL:
 
             <Card className="bg-gradient-to-br from-gray-900 to-gray-800 border-emerald-500/20 shadow-xl shadow-emerald-500/10 hover:shadow-emerald-500/20 transition-all duration-300 transform hover:-translate-y-1">
               <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center">
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
+                  <div className="flex items-center gap-4 flex-1 min-w-0">
+                    <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-green-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <Award className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <CardTitle className="text-emerald-400 text-xl">Bachillerato</CardTitle>
-                      <CardDescription className="text-lg text-gray-300">
+                    <div className="min-w-0 flex-1">
+                      <CardTitle className="text-emerald-400 text-xl break-words">Bachillerato</CardTitle>
+                      <CardDescription className="text-lg text-gray-300 break-words">
                         IES Virgen de Valme, Dos Hermanas (Sevilla)
                       </CardDescription>
                     </div>
                   </div>
-                  <Badge variant="outline" className="border-emerald-400 text-emerald-400">
+                  <Badge variant="outline" className="border-emerald-400 text-emerald-400 whitespace-nowrap self-start">
                     2022 - 2024
                   </Badge>
                 </div>
