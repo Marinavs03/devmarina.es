@@ -159,8 +159,8 @@ INFORMACIÓN ADICIONAL:
           <div
             className={`mb-8 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           >
-            <div className="w-40 h-40 bg-gradient-to-br from-emerald-400 via-green-500 to-emerald-600 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-5xl font-bold shadow-2xl shadow-emerald-500/25">
-              MV
+            <div className="w-40 h-40 rounded-full mx-auto mb-6 overflow-hidden shadow-2xl shadow-emerald-500/25 ring-4 ring-emerald-500/20">
+              <img src="/profile.jpg" alt="Marina Varela Sánchez" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-6xl font-bold text-white mb-4 text-balance bg-gradient-to-r from-white to-emerald-100 bg-clip-text text-transparent">
               Marina Varela Sánchez
